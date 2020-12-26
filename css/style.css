@@ -11,9 +11,10 @@ body {
 .container {
     display: flex;
     flex-direction: row;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     justify-content: center;
     align-items: stretch;
+    
 }
 
 h1 {
@@ -24,11 +25,10 @@ h1 {
 }
 
 .element {
-    /* border: solid 5px springgreen; */
     margin: .7rem;
     text-align: center;
     font-weight: 600;
-    color: #22280F;
+    color: #6A5923;
 }
 
 p {
@@ -36,4 +36,39 @@ p {
   font-style: italic;
   font-size: .85rem;
   color: black;
+}
+
+@media only screen and (min-width : 480px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    .container {
+        font-size: 3rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    .element {
+        margin: 1.5rem;
+    }
+}
+
+@media only screen and (min-width : 992px) {
+    h1 {
+        font-size: 3rem;
+    }
+    
+    .container {
+        font-size: 4rem;
+    }
+    .element {
+        margin: 2.5rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
 }
