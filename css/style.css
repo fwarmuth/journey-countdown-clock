@@ -5,6 +5,7 @@ body {
     background-image: url('../img/bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     height: 100vh;
 }
 
@@ -28,7 +29,7 @@ h1 {
     margin: .7rem;
     text-align: center;
     font-weight: 600;
-    color: #6A5923;
+    color: white;
 }
 
 p {

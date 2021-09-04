@@ -1,8 +1,8 @@
-const endTime = new Date('April 29 2021 10:00:00');
+const startTime = new Date('September 3 2021 09:00:00');
 
 const interval = setInterval (function () {
-    const startTime = new Date();
-    const diff = endTime - startTime;
+    const currentTime= new Date();
+    const diff = currentTime - startTime;
 
     const days = Math.floor(diff / 1000 / 60 / 60 / 24);
 	const hours = Math.floor(diff / 1000 / 60 / 60) % 24;

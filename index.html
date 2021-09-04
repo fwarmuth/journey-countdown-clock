@@ -10,27 +10,58 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./css/style.css">
+
+    <!-- button-->
+    <style>
+        .button{
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+        .button1 {
+            background-color: rgb(0, 180, 9); 
+            color: black; 
+            border: 2px solid #4CAF50;
+        }
+        .button1:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Journey will start in</h1>
+    <h1>Verheiratet seit:</h1>
     <div class="container">
         <div class="element">
             <div id="days"></div>
-            <p>days</p>
+            <p>Tagen</p>
         </div>
         <div class="element">
             <div id="hours"></div>
-            <p>hours</p>
+            <p>Stunden</p>
         </div>
         <div class="element">
             <div id="minutes"></div>
-            <p>minutes</p>
+            <p>Minuten</p>
         </div>
         <div class="element">
             <div id="seconds"></div>
-            <p>seconds</p>
+            <p>Sekunden</p>
         </div>
     </div>
-    <script src="./js/main.js"></script>
+    <script src="./js/countup.js"></script>
+
+<h1>
+    <a href="https://page.wirheiratenunsgegenseitig.de" class="button button1"> Weiter</a>
+</h1>
 </body>
 </html>
